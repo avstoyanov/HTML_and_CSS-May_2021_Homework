@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Customer Details</legend>
+            <div>
+                <br>
+                <label for="First Name">
+                    First Name
+                    <input type="text" autofocus placeholder="George">
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="Last Name">
+                    Last Name
+                    <input type="text" autofocus placeholder="Devis">
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="Male">
+                    Male
+                    <input type="radio" name="gender">
+                    Female
+                    <input type="radio" name="gender">
+                    Other
+                    <input type="radio" name="gender">
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="contact method">
+                    Preferred contact method:
+                    Email
+                    <input type="radio" name="contact method">
+                    Phone
+                    <input type="radio" name="contact method">
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="Email">
+                    Email
+                    <input type="email" name="email" placeholder="your@email.com">
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="Phone">
+                    Phone
+                    <input type="text" placeholder="+359885236225">
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="Town">
+                    Town
+                    <select name="Town">
+                        <option value="Varna">Varna</option>
+                        <option value="Plovdiv">Plovdiv</option>
+                        <option value="Burgas">Burgas</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Pleven">Pleven</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="Age">
+                    Age
+                    <input type="number" name="Age" min="18" max="70">
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="Programming language">
+                    Programming language
+                    <input list="lang" name="Programming language">
+                    <datalist id="lang">
+                        <option value="Java">Java</option>
+                        <option value="PHP">PHP</option>
+                        <option value="C#">C#</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="Other">Other</option>
+                    </datalist>
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="textarea">
+                    <textarea name="More information..." cols="20" rows="5" placeholder="More information..."></textarea>
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="terms and conditions">
+                    <input type="checkbox" name="terms and conditions">
+                    I agree the Terms and Conditions
+                </label>
+            </div>
+            <div>
+                <br>
+                <label for="send">
+                    <input type="submit" value="Send">
+                </label>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
