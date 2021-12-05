@@ -1,0 +1,27 @@
+@import "https://use.fontawesome.com/releases/v6.0.0-beta3/css/all.css";
+
+html{
+    font-family: Helvetica;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+#click a{
+    background: green;  
+}
+#email a{
+    background: orange;
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+    padding: 6px;
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    outline: none;
+}
+p{
+    margin-bottom: 30px;
+}
