@@ -1,0 +1,21 @@
+html{
+    background: #eeeeee;
+}
+body{
+    max-width: 1254;
+    width: 85%;
+    margin: auto;
+    
+}
+li{
+    display: inline-block;
+    border: solid 5px;
+    padding:10px 10px 7px 10px;
+    margin: 5px;
+    vertical-align: middle;
+    max-width: 300px;
+    background: white;
+}
+img{
+    width: 100%;
+}
