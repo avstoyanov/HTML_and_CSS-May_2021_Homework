@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+}
+div, section{
+    display: flex;
+    align-content: center;
+}
+div{
+    max-width: 65vw;
+    margin: auto;
+}
+.notes{
+    flex-direction: column;
+}
+.week{
+    flex-flow: wrap;
+}
+span{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+.notes span{
+    flex-grow: 1;
+    flex-basis: 100%;
+    padding: 5px 20px;
+}
+.week span{
+    min-height: 100px;
+    padding-top: 25px;
+    padding-inline: 10px;
+}
+
+.week :nth-child(1){
+    flex-basis: 100%;
+}
+.week :nth-child(2){
+    flex-grow: 1;
+}
+.week :nth-child(3){
+    flex-grow: 1;
+}
+.week :nth-child(4){
+    flex-grow: 1;
+}
+.week :nth-child(5){
+    flex-grow: 1;
+}
+.week :nth-child(6){
+    flex-grow: 1;
+}
+.week :nth-child(7){
+    flex-basis: 100%;
+}
+.week :nth-child(8){
+    flex-grow: 1;
+}
+.week :nth-child(9){
+    flex-grow: 1;
+}

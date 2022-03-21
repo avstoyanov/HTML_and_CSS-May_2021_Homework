@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-flow: wrap;
+    background-color: #eeeeee;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 60px;
+}
+header, main, aside, footer{
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 15px;
+    box-shadow: 0 0 10px 1px #8b8b8b;
+    padding: 35px 30px;
+}
+header {
+    min-height: 100px;
+    flex-basis: 100%;
+    flex-shrink: 1;
+
+}
+main {
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+aside {
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+}
+footer {
+    flex-basis: 100%;
+    flex-shrink: 1;
+    min-height: 50px;
+
+}
+main, aside{
+    min-height: 300px;
+}

@@ -1,0 +1,26 @@
+body, ul, li{
+    display: flex;
+    flex-flow: wrap;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eeeeee;
+}
+ul {
+    justify-content: space-between;
+    margin: 5vw;
+}
+li {
+    background-color: white;
+    align-items: center;
+    border-style: solid;
+    border-width: 7px;
+    margin: 15px 10px;
+    width:fit-content;
+    padding: 20px 10px;
+    width: 30%;
+}
+img {
+    width: 100%;
+    flex-shrink: 1;
+}
